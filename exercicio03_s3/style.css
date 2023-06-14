@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+.tabela {
+  display: flex;
+}
+
+.coluna1 {
+  text-align:center;
+  align-items:center;
+}
+
+.coluna2 {
+  text-align: center;
+  align-items:center;
+}
+
+.coluna3 {
+  text-align: center;
+  align-items:center;
+}
