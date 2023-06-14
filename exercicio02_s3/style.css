@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+
+.lista_paises {
+  text-align: center;
+  list-style-type: none;
+}
+
+.lista_compras {
+  text-align: center;
+  list-style-type: none;
+}
