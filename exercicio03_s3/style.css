@@ -7,8 +7,9 @@ body {
 }
 
 table, th, td {
-  border: 10px solid;
+  border: 2px solid;
   border-collapse: 1px;
   align-items: center;
   margin:auto;
+
 }
