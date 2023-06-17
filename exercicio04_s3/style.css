@@ -1,0 +1,35 @@
+:root{
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family:'Roboto Slab', 'Noto Sans', 'Helvetica', sans-serif;
+  font-size: 20px;
+  color: #100aab;
+  font-weight: 700;
+  text-align: center;
+}
+
+header{
+  display: flex;
+  align-items: left;
+  font-size: 12px;
+  border: 1px solid #d3d3d3
+}
+
+section {
+  font-family: 'Arial', 'Roboto Slab', 'Noto Sans', 'Helvetica', sans-serif;
+  text-align: center;
+  background-color: #CAE8EB;
+  border: 1px solid ;
+  border-color: #d3d3d3;
+  padding: 20px;
+  
+}
+
+input, select{
+  border-radius: 5px;
+  gap: 50px;
+  text-align: -webkit-center;
+}
+
