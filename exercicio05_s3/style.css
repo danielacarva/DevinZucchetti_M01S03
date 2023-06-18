@@ -1,0 +1,140 @@
+:root{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header > .textoSuperiorEsquerdo .select .botaoEntrar{
+  display: flex, inline;
+  background-color: black;
+}
+
+.textoSuperiorEsquerdo{
+  flex: row;
+  color:red;
+  font-weight: bold;
+  text-align: left;
+}
+
+.select{
+  flex: row;
+  background-color: black;
+  color: white;
+  border-color: white;
+  margin-top: 0;
+  text-align: center;
+  position:absolute;
+  top:8px;
+  right: 65px;
+  width: 100px;
+  height: 25px;
+}
+
+.botaoEntrar{
+  flex:row;
+  background-color: red;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  position:absolute;
+  top: 8px;
+  right: 8px;
+  padding: 2px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.mensagem1Titulo1{
+  text-align: center;
+  color:white;
+}
+
+.mensagem2Titulo1{
+  text-align: center;
+  color:white;
+}
+
+.pesquisar{ 
+  display:flex, inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.botaoPesquisar{
+  display: flex, inline;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color:white;
+  margin-bottom: 5px;
+}
+
+body{
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+}
+
+.primeiraSessaoTitulo {
+  color: white;
+}
+
+.primeiraSessao, .primeiraSessaoTitulo {
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+.primeiraSessaoFoto {
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.segundaSessaoFoto {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.segundaSessaoTitulo {
+  color: white;
+}
+
+.vantagens{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.listaVantagens{
+  margin-bottom: 15px;
+  text-align:left;
+  margin-left: 650px;
+  list-style-type: none;
+  color:white;
+  background-color: #59564c;
+  opacity: 0.2;
+  width: 200px;
+}
+
+.listaLinks{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+li{
+  color: white;
+}
