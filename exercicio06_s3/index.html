@@ -8,54 +8,61 @@
 
 <body>
   <header>
-    <h1>VIAJE-TECH
-      <nav class="menuTitulo">
-        <a href="" class="menuTituloItem">Destinos</li>
-        <a href="" class="menuTituloItem">Pacotes</li>
-        <a href="" class="menuTituloItem">Sobre nós</li>
-        <a href="" class="menuTituloItem">Contato</li>
-        </nav>
-    </h1>
+    <h1>VIAJE-TECH</h1>
+    <nav>
+      <a class="menuTitulo" href="">Destinos</a>
+      <a class="menuTitulo" href="">Pacotes</a>
+      <a class="menuTitulo" href="">Sobre nós</a>
+      <a class="menuTitulo" href="">Contato</a>
+    </nav>
+    
   </header>
 
   <main>
   
-    <div class="box">
-      <div class="boxImagens">
-        <img src="img/1000_F_251752942_r94e1QzH1KftCskdXWssrrK0484ifeUM.jpg" width="250px" height="200px">
-        <div class="boxInformacao">
-          <p class="boxInformacaoCidade"><em>Índia</em></p>
-          <p class="boxInformacaoCidade">Preço a partir de </p>
-          <p class="boxInformacaoCidade"><strong>BTC 0,22222</strong></p>
-        </div>
-        <div class="botaoVisualizar">
-          <button class="botaoVisualizar1" onclick="visualizar">Visualizar &gt; &gt;</button>
-        </div>
-      </div>
+    <ul class="box">
+      <li class="boxImagens">
+        <img src="img/1000_F_251752942_r94e1QzH1KftCskdXWssrrK0484ifeUM.jpg" alt="garota de chapeu de costas com mochila andando por rua na Índia" width="250px" height="200px">
+        
+          <h3><em>Índia</em></h3>
+          <div class="boxInformacoes">
+            <div>
+              <p >Preço a partir de :</p>
+              <p><strong>BTC 0,22222</strong></p>
+            </div>
 
-      <div class="boxImagens">
-        <img src="img/240_F_274451707_jZJ4Swvhj97cp88SjX3mnhX549BB3Lgc.jpg" width="250px" height="200px">
-        <div class="boxInformacao">  
-          <p class="boxInformacaoCidade"><em>Instambul</em></p>
-          <p class="boxInformacaoCidade">Preço a partir de </p>
-          <p class="boxInformacaoCidade"><strong>BTC 0,454545</strong></p> 
+            <a class="botaoVisualizar" href=""> Visualizar &gt; &gt;</a>
+          </div>
+      </li>
+
+      <li class="boxImagens">
+        <img src="img/240_F_274451707_jZJ4Swvhj97cp88SjX3mnhX549BB3Lgc.jpg" alt="garota de chapéu de costas com mochila olhando para Instambul" width="250px" height="200px">
+        
+        <h3><em>Instambul</em></h3>
+        <div class="boxInformacoes">  
+          <div>
+            <p>Preço a partir de :</p>
+            <p><strong>BTC 0,454545</strong></p> 
+          </div>
+          <a class="botaoVisualizar" href="">Visualizar &gt; &gt;</a>
+          
         </div>
-        <div class="botaoVisualizar">
-          <button class="botaoVisualizar1" onclick="visualizar">Visualizar &gt; &gt;</button>
+      </li>
+
+      <li class="boxImagens">
+        <img src="img/1000_F_199751065_xNznf8h2bIGloo2lopV35lOnL1QiSUFG.jpg" alt="garota de vestido vermelho e chapéu, de costas olhando para as casas brancas e mar azul da Grécia" width="250px" height="200px">
+
+        <h3><em>Grécia</em></h3>
+        <div class="boxInformacoes">
+          <div>
+          <p>Preço a partir de :</p>
+          <p><strong>BTC 0,88888</strong></p>
+          </div>
+          <a class="botaoVisualizar" href="">Visualizar &gt; &gt;</a>
+          
         </div>
-      </div>
-      <div class="boxImagens">
-        <img src="img/1000_F_199751065_xNznf8h2bIGloo2lopV35lOnL1QiSUFG.jpg" width="250px" height="200px">
-        <div class="boxInformacao">
-          <p class="boxInformacaoCidade"><em>Grécia</em></p>
-          <p class="boxInformacaoCidade">Preço a partir de </p>
-          <p class="boxInformacaoCidade"><strong>BTC 0,88888</strong></p>
-        </div>
-        <div class="botaoVisualizar">
-          <button class="botaoVisualizar1" onclick="visualizar">Visualizar &gt; &gt;</button>
-        </div>
-      </div>
-    </div>
+      </li>
+    </ul>
 
     <section class="formulario">
       <input class="formularioCampos" type="text" placeholder="Informe a origem">

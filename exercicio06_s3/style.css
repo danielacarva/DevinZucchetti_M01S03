@@ -14,32 +14,25 @@
   box-sizing: border-box;
 }
 
-h1 {
-  display: flex;
-  justify-content: space-evenly;
+header, h1 {
+  display: flex, inline;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  flex: row;
   background-color: navy;
-  padding: 10px;
+  padding: 16px;
   font-size: 16px;
   color: white;
-  margin:0 0 50px 0;
 }
 
-a{
-  display: flex;
-  justify-content: right;
+.menuTitulo {
+  display: flex, inline;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: white;
-  gap: 10px;
   text-decoration-line: none;
-}
-
-.menuTituloItem {
-  gap: 80px;
   font-size: 12px;
-  flex:row;
-  display: inline;
-  list-style-type:none;
 }
 
 main{
@@ -59,9 +52,11 @@ main{
   justify-content: center;
   gap: 100px;
   margin: 5px;
+  list-style-type: none;
 }
 
 .boxImagens {
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid gray;
@@ -70,30 +65,24 @@ main{
   margin:40px 10px 10px 10px;
 }
 
-.boxInformacao{
+.boxInformacoes{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-}
-
-.boxInformacaoCidade {
-  color: black;
-  font-size: 16px;
-  margin:5px;
+  align-items: center;
+  gap: 7px;
 }
 
 .botaoVisualizar {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: right;
-}
-
-.botaoVisualizar1 {
+  align-items: center;
+  justify-content: center;
   background-color: red;
   color: white;
   border-radius: 8px;
   width: 100px;
+  height: 30px;
 }
 
 .formulario {
