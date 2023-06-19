@@ -10,6 +10,9 @@
   font-family: sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 h1 {
   display: flex;
@@ -23,6 +26,14 @@ h1 {
   margin:0 0 50px 0;
 }
 
+a{
+  display: flex;
+  justify-content: right;
+  color: white;
+  gap: 10px;
+  text-decoration-line: none;
+}
+
 .menuTituloItem {
   gap: 80px;
   font-size: 12px;
@@ -32,14 +43,21 @@ h1 {
 }
 
 main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   min-height: 100%;
+
 }
 
 .box {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
   margin: 5px;
 }
 
@@ -47,19 +65,31 @@ main{
   flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid gray;
+  border-radius: 6px;
   padding: 5px;
   margin:40px 10px 10px 10px;
 }
 
+.boxInformacao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .boxInformacaoCidade {
+  color: black;
   font-size: 16px;
   margin:5px;
 }
 
 .botaoVisualizar {
-  flex-direction: row;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.botaoVisualizar1 {
   background-color: red;
   color: white;
   border-radius: 8px;
