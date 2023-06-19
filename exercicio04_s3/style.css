@@ -14,14 +14,13 @@ header{
   display: flex;
   align-items: left;
   font-size: 12px;
-  border: 1px solid #d3d3d3
 }
 
 section {
   font-family: 'Arial', 'Roboto Slab', 'Noto Sans', 'Helvetica', sans-serif;
-  text-align: center;
+  text-align: left;
   background-color: #CAE8EB;
-  border: 1px solid ;
+  border: 1px, solid ;
   border-color: #d3d3d3;
   padding: 20px;
   
@@ -30,6 +29,6 @@ section {
 input, select{
   border-radius: 5px;
   gap: 50px;
-  text-align: -webkit-center;
+  text-align: left;
+  margin-left: 150px;
 }
-
