@@ -81,6 +81,7 @@ main{
   background-color: red;
   color: white;
   border-radius: 8px;
+  text-decoration-line: none;
   width: 100px;
   height: 30px;
 }
