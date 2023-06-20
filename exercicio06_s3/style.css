@@ -14,10 +14,21 @@
   box-sizing: border-box;
 }
 
-header, h1 {
+header {
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 16px;
+  background-color: navy;
+  gap: 30px;
+}
+
+h1 {
   display: flex, inline;
   flex-direction: row;
-  justify-content: center;
+  text-align: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: navy;
   padding: 16px;
@@ -25,11 +36,15 @@ header, h1 {
   color: white;
 }
 
-.menuTitulo {
-  display: flex, inline;
+.menuTitulo{
+  display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.menuTituloOpcoes {
   color: white;
   text-decoration-line: none;
   font-size: 12px;
@@ -70,7 +85,7 @@ main{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 7px;
+  gap: 15px;
 }
 
 .botaoVisualizar {
